@@ -1,7 +1,3 @@
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Spliterator;
-import java.util.stream.Stream;
 
 public class Main {
     public static void main(String[] args) {
@@ -17,7 +13,6 @@ public class Main {
         sumArray(array);
 
     }
-
     public static int sumArray(int[] array) {
         for (int i = 3; i < 7; i++) {
             if (i < array.length) ;
@@ -25,7 +20,6 @@ public class Main {
         }
         return array.length;
     }
-
 
 }
 
