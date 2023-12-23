@@ -13,6 +13,7 @@ public class Main {
         sumArray(array);
 
     }
+
     public static int sumArray(int[] array) {
         for (int i = 3; i < 7; i++) {
             if (i < array.length) ;
